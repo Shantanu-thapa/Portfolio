@@ -2,7 +2,7 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY package_new*.json ./
 
 RUN npm install --omit=dev
 
