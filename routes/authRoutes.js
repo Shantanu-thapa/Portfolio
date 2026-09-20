@@ -4,6 +4,11 @@ const router = express.Router();
 
 const protect = require("../middleware/authmiddleware");
 
+const{login,signup} = require("../controller/auth");
+
+router.post("/login" , login );
+router.post("/signup", signup);
+
 const {
     trackVisitor,
     getVisitorCount
