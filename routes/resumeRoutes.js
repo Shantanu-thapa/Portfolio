@@ -13,7 +13,7 @@ const {
 
 
 // Public - Get active resume
-router.get("/", myResume);
+router.get("/resume", myResume);
 
 
 // Protected - Upload resume
