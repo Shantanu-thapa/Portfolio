@@ -24,7 +24,7 @@ const auth = require("./routes/authRoutes");
 
 app.use("/api/v1/projects", projects);
 app.use("/api/v1", resumeHandle);
-app.use("/api/v1/visitors", visitorCount);
+app.use("/api/v1/visitor", visitorCount);
 app.use("/api/v1/admin", dashboard);
 app.use("/api/v1/auth", auth);
 
